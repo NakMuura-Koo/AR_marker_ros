@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/AR_detection/AR_detection.egg-info
+writing ../../build/AR_detection/AR_detection.egg-info/PKG-INFO
+writing dependency_links to ../../build/AR_detection/AR_detection.egg-info/dependency_links.txt
+writing entry points to ../../build/AR_detection/AR_detection.egg-info/entry_points.txt
+writing requirements to ../../build/AR_detection/AR_detection.egg-info/requires.txt
+writing top-level names to ../../build/AR_detection/AR_detection.egg-info/top_level.txt
+writing manifest file '../../build/AR_detection/AR_detection.egg-info/SOURCES.txt'
+reading manifest file '../../build/AR_detection/AR_detection.egg-info/SOURCES.txt'
+writing manifest file '../../build/AR_detection/AR_detection.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/knakamura/AR_ws/build/AR_detection/build
+creating /home/knakamura/AR_ws/build/AR_detection/build/lib
+creating /home/knakamura/AR_ws/build/AR_detection/build/lib/AR_detection
+copying AR_detection/__init__.py -> /home/knakamura/AR_ws/build/AR_detection/build/lib/AR_detection
+copying AR_detection/camera_point_axis_average.py -> /home/knakamura/AR_ws/build/AR_detection/build/lib/AR_detection
+running install
+running install_lib
+creating /home/knakamura/AR_ws/install/AR_detection/lib/python3.8/site-packages/AR_detection
+copying /home/knakamura/AR_ws/build/AR_detection/build/lib/AR_detection/__init__.py -> /home/knakamura/AR_ws/install/AR_detection/lib/python3.8/site-packages/AR_detection
+copying /home/knakamura/AR_ws/build/AR_detection/build/lib/AR_detection/camera_point_axis_average.py -> /home/knakamura/AR_ws/install/AR_detection/lib/python3.8/site-packages/AR_detection
+byte-compiling /home/knakamura/AR_ws/install/AR_detection/lib/python3.8/site-packages/AR_detection/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/knakamura/AR_ws/install/AR_detection/lib/python3.8/site-packages/AR_detection/camera_point_axis_average.py to camera_point_axis_average.cpython-38.pyc
+running install_data
+creating /home/knakamura/AR_ws/install/AR_detection/share/ament_index
+creating /home/knakamura/AR_ws/install/AR_detection/share/ament_index/resource_index
+creating /home/knakamura/AR_ws/install/AR_detection/share/ament_index/resource_index/packages
+copying resource/AR_detection -> /home/knakamura/AR_ws/install/AR_detection/share/ament_index/resource_index/packages
+copying package.xml -> /home/knakamura/AR_ws/install/AR_detection/share/AR_detection
+running install_egg_info
+Copying ../../build/AR_detection/AR_detection.egg-info to /home/knakamura/AR_ws/install/AR_detection/lib/python3.8/site-packages/AR_detection-0.0.0-py3.8.egg-info
+running install_scripts
+Installing camera_point_axis_average script to /home/knakamura/AR_ws/install/AR_detection/lib/AR_detection
+writing list of installed files to '/home/knakamura/AR_ws/build/AR_detection/install.log'

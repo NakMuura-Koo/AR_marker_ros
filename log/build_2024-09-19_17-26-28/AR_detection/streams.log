@@ -1,0 +1,44 @@
+[0.757s] Invoking command in '/home/knakamura/AR_ws/src/AR_detection': PYTHONPATH=/home/knakamura/AR_ws/build/AR_detection/prefix_override:/home/knakamura/AR_ws/install/AR_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/AR_detection build --build-base /home/knakamura/AR_ws/build/AR_detection/build install --record /home/knakamura/AR_ws/build/AR_detection/install.log --install-scripts $base/lib/AR_detection --single-version-externally-managed install_data
+[0.863s] /home/knakamura/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[0.863s] !!
+[0.864s] 
+[0.864s]         ********************************************************************************
+[0.864s]         Usage of dash-separated 'script-dir' will not be supported in future
+[0.864s]         versions. Please use the underscore name 'script_dir' instead.
+[0.864s] 
+[0.864s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[0.864s]         or your builds will no longer be supported.
+[0.864s] 
+[0.864s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[0.864s]         ********************************************************************************
+[0.864s] 
+[0.864s] !!
+[0.864s]   opt = self.warn_dash_deprecation(opt, section)
+[0.982s] running egg_info
+[0.997s] writing ../../build/AR_detection/AR_detection.egg-info/PKG-INFO
+[0.998s] writing dependency_links to ../../build/AR_detection/AR_detection.egg-info/dependency_links.txt
+[0.998s] writing entry points to ../../build/AR_detection/AR_detection.egg-info/entry_points.txt
+[0.998s] writing requirements to ../../build/AR_detection/AR_detection.egg-info/requires.txt
+[0.998s] writing top-level names to ../../build/AR_detection/AR_detection.egg-info/top_level.txt
+[1.133s] reading manifest file '../../build/AR_detection/AR_detection.egg-info/SOURCES.txt'
+[1.133s] writing manifest file '../../build/AR_detection/AR_detection.egg-info/SOURCES.txt'
+[1.134s] running build
+[1.134s] running build_py
+[1.134s] copying AR_detection/__init__.py -> /home/knakamura/AR_ws/build/AR_detection/build/lib/AR_detection
+[1.134s] copying AR_detection/camera_point_axis_average.py -> /home/knakamura/AR_ws/build/AR_detection/build/lib/AR_detection
+[1.134s] running install
+[1.138s] running install_lib
+[1.155s] copying /home/knakamura/AR_ws/build/AR_detection/build/lib/AR_detection/__init__.py -> /home/knakamura/AR_ws/install/AR_detection/lib/python3.8/site-packages/AR_detection
+[1.155s] copying /home/knakamura/AR_ws/build/AR_detection/build/lib/AR_detection/camera_point_axis_average.py -> /home/knakamura/AR_ws/install/AR_detection/lib/python3.8/site-packages/AR_detection
+[1.155s] byte-compiling /home/knakamura/AR_ws/install/AR_detection/lib/python3.8/site-packages/AR_detection/__init__.py to __init__.cpython-38.pyc
+[1.155s] byte-compiling /home/knakamura/AR_ws/install/AR_detection/lib/python3.8/site-packages/AR_detection/camera_point_axis_average.py to camera_point_axis_average.cpython-38.pyc
+[1.156s] running install_data
+[1.157s] copying resource/AR_detection -> /home/knakamura/AR_ws/install/AR_detection/share/ament_index/resource_index/packages
+[1.157s] copying package.xml -> /home/knakamura/AR_ws/install/AR_detection/share/AR_detection
+[1.157s] running install_egg_info
+[1.174s] removing '/home/knakamura/AR_ws/install/AR_detection/lib/python3.8/site-packages/AR_detection-0.0.0-py3.8.egg-info' (and everything under it)
+[1.174s] Copying ../../build/AR_detection/AR_detection.egg-info to /home/knakamura/AR_ws/install/AR_detection/lib/python3.8/site-packages/AR_detection-0.0.0-py3.8.egg-info
+[1.175s] running install_scripts
+[1.213s] Installing camera_point_axis_average script to /home/knakamura/AR_ws/install/AR_detection/lib/AR_detection
+[1.213s] writing list of installed files to '/home/knakamura/AR_ws/build/AR_detection/install.log'
+[1.233s] Invoked command in '/home/knakamura/AR_ws/src/AR_detection' returned '0': PYTHONPATH=/home/knakamura/AR_ws/build/AR_detection/prefix_override:/home/knakamura/AR_ws/install/AR_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/AR_detection build --build-base /home/knakamura/AR_ws/build/AR_detection/build install --record /home/knakamura/AR_ws/build/AR_detection/install.log --install-scripts $base/lib/AR_detection --single-version-externally-managed install_data

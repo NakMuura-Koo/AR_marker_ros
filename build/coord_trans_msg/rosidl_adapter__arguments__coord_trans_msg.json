@@ -1,0 +1,6 @@
+{
+  "package_name": "coord_trans_msg",
+  "non_idl_tuples": [
+    "/home/knakamura/AR_ws/src/coord_trans_msg:msg/Coordtrans.msg"
+  ]
+}

@@ -1,0 +1,2 @@
+[console_scripts]
+camera_point_axis_average = AR_detection.camera_point_axis_average:main

@@ -1,0 +1,68 @@
+[0.000000] (-) TimerEvent: {}
+[0.000228] (AR_detection) JobQueued: {'identifier': 'AR_detection', 'dependencies': OrderedDict()}
+[0.000270] (AR_detection) JobStarted: {'identifier': 'AR_detection'}
+[0.099733] (-) TimerEvent: {}
+[0.200004] (-) TimerEvent: {}
+[0.300238] (-) TimerEvent: {}
+[0.400467] (-) TimerEvent: {}
+[0.500665] (-) TimerEvent: {}
+[0.600866] (-) TimerEvent: {}
+[0.701087] (-) TimerEvent: {}
+[0.702225] (AR_detection) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/AR_detection', 'build', '--build-base', '/home/knakamura/AR_ws/build/AR_detection/build', 'install', '--record', '/home/knakamura/AR_ws/build/AR_detection/install.log', '--install-scripts', '$base/lib/AR_detection', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/knakamura/AR_ws/src/AR_detection', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ja:en', 'USER': 'knakamura', 'LC_TIME': 'ja_JP.UTF-8', 'SSH_AGENT_PID': '2272', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda-12.2/lib64:/home/knakamura/ros2_ws/install/shigure_core_msgs/lib:/home/knakamura/ros2_ws/install/ros2_test_communicate_srvs/lib:/home/knakamura/ros2_ws/install/openpose_ros2_msgs/lib:/home/knakamura/ros2_ws/install/bboxes_ex_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/knakamura', 'OLDPWD': '/home/knakamura/AR_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ja_JP.UTF-8', 'MANAGERPID': '2173', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1005/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/knakamura/AR_ws/install:/home/knakamura/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'knakamura', 'JOURNAL_STREAM': '8:60197', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'knakamura', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda-12.2/bin:/opt/ros/foxy/bin:/home/knakamura/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/knakamura/.dotnet/tools', 'SESSION_MANAGER': 'local/k-chlorine:@/tmp/.ICE-unix/2310,unix/k-chlorine:/tmp/.ICE-unix/2310', 'INVOCATION_ID': '3d40ad210adf43b096c56952c35d3054', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ja_JP.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7fa54980_f8b9_44e1_8bd2_cc05ce836c5c', 'XDG_RUNTIME_DIR': '/run/user/1005', 'DISPLAY': ':1', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1005/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.676', 'SSH_AUTH_SOCK': '/run/user/1005/keyring/ssh', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/knakamura/ros2_ws/install/shigure_core:/home/knakamura/ros2_ws/install/shigure_core_msgs:/home/knakamura/ros2_ws/install/rs_ros2_python:/home/knakamura/ros2_ws/install/ros2_test_communicate:/home/knakamura/ros2_ws/install/ros2_test_communicate_srvs:/home/knakamura/ros2_ws/install/record_camera:/home/knakamura/ros2_ws/install/openpose_ros2:/home/knakamura/ros2_ws/install/openpose_ros2_msgs:/home/knakamura/ros2_ws/install/boxmot_tracking:/home/knakamura/ros2_ws/install/bboxes_ex_msgs:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'GPG_AGENT_INFO': '/run/user/1005/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/knakamura/AR_ws/build/AR_detection', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/knakamura/AR_ws/build/AR_detection/prefix_override:/home/knakamura/AR_ws/install/AR_detection/lib/python3.8/site-packages:/home/knakamura/ros2_ws/install/shigure_core/lib/python3.8/site-packages:/home/knakamura/ros2_ws/install/shigure_core_msgs/lib/python3.8/site-packages:/home/knakamura/ros2_ws/install/rs_ros2_python/lib/python3.8/site-packages:/home/knakamura/ros2_ws/install/ros2_test_communicate/lib/python3.8/site-packages:/home/knakamura/ros2_ws/install/ros2_test_communicate_srvs/lib/python3.8/site-packages:/home/knakamura/ros2_ws/install/record_camera/lib/python3.8/site-packages:/home/knakamura/ros2_ws/install/openpose_ros2/lib/python3.8/site-packages:/home/knakamura/ros2_ws/install/openpose_ros2_msgs/lib/python3.8/site-packages:/home/knakamura/ros2_ws/install/boxmot_tracking/lib/python3.8/site-packages:/home/knakamura/ros2_ws/install/bboxes_ex_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/knakamura/ros2_ws/install/shigure_core_msgs:/home/knakamura/ros2_ws/install/ros2_test_communicate_srvs:/home/knakamura/ros2_ws/install/openpose_ros2_msgs:/home/knakamura/ros2_ws/install/bboxes_ex_msgs'}, 'shell': False}
+[0.801216] (-) TimerEvent: {}
+[0.806060] (AR_detection) StderrLine: {'line': b'/home/knakamura/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[0.806204] (AR_detection) StderrLine: {'line': b'!!\n'}
+[0.806254] (AR_detection) StderrLine: {'line': b'\n'}
+[0.806299] (AR_detection) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.806343] (AR_detection) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[0.806386] (AR_detection) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[0.806429] (AR_detection) StderrLine: {'line': b'\n'}
+[0.806470] (AR_detection) StderrLine: {'line': b'        By 2024-Sep-26, you need to update your project and remove deprecated calls\n'}
+[0.806511] (AR_detection) StderrLine: {'line': b'        or your builds will no longer be supported.\n'}
+[0.806553] (AR_detection) StderrLine: {'line': b'\n'}
+[0.806595] (AR_detection) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[0.806641] (AR_detection) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.806683] (AR_detection) StderrLine: {'line': b'\n'}
+[0.806725] (AR_detection) StderrLine: {'line': b'!!\n'}
+[0.806766] (AR_detection) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[0.901311] (-) TimerEvent: {}
+[0.914392] (AR_detection) StdoutLine: {'line': b'running egg_info\n'}
+[0.914608] (AR_detection) StdoutLine: {'line': b'creating ../../build/AR_detection/AR_detection.egg-info\n'}
+[0.929247] (AR_detection) StdoutLine: {'line': b'writing ../../build/AR_detection/AR_detection.egg-info/PKG-INFO\n'}
+[0.929497] (AR_detection) StdoutLine: {'line': b'writing dependency_links to ../../build/AR_detection/AR_detection.egg-info/dependency_links.txt\n'}
+[0.929673] (AR_detection) StdoutLine: {'line': b'writing entry points to ../../build/AR_detection/AR_detection.egg-info/entry_points.txt\n'}
+[0.929872] (AR_detection) StdoutLine: {'line': b'writing requirements to ../../build/AR_detection/AR_detection.egg-info/requires.txt\n'}
+[0.929937] (AR_detection) StdoutLine: {'line': b'writing top-level names to ../../build/AR_detection/AR_detection.egg-info/top_level.txt\n'}
+[1.001417] (-) TimerEvent: {}
+[1.026686] (AR_detection) StdoutLine: {'line': b"writing manifest file '../../build/AR_detection/AR_detection.egg-info/SOURCES.txt'\n"}
+[1.058138] (AR_detection) StdoutLine: {'line': b"reading manifest file '../../build/AR_detection/AR_detection.egg-info/SOURCES.txt'\n"}
+[1.058644] (AR_detection) StdoutLine: {'line': b"writing manifest file '../../build/AR_detection/AR_detection.egg-info/SOURCES.txt'\n"}
+[1.058778] (AR_detection) StdoutLine: {'line': b'running build\n'}
+[1.058850] (AR_detection) StdoutLine: {'line': b'running build_py\n'}
+[1.059041] (AR_detection) StdoutLine: {'line': b'creating /home/knakamura/AR_ws/build/AR_detection/build\n'}
+[1.059131] (AR_detection) StdoutLine: {'line': b'creating /home/knakamura/AR_ws/build/AR_detection/build/lib\n'}
+[1.059183] (AR_detection) StdoutLine: {'line': b'creating /home/knakamura/AR_ws/build/AR_detection/build/lib/AR_detection\n'}
+[1.059233] (AR_detection) StdoutLine: {'line': b'copying AR_detection/__init__.py -> /home/knakamura/AR_ws/build/AR_detection/build/lib/AR_detection\n'}
+[1.059282] (AR_detection) StdoutLine: {'line': b'copying AR_detection/camera_point_axis_average.py -> /home/knakamura/AR_ws/build/AR_detection/build/lib/AR_detection\n'}
+[1.059354] (AR_detection) StdoutLine: {'line': b'running install\n'}
+[1.063182] (AR_detection) StdoutLine: {'line': b'running install_lib\n'}
+[1.078589] (AR_detection) StdoutLine: {'line': b'creating /home/knakamura/AR_ws/install/AR_detection/lib/python3.8/site-packages/AR_detection\n'}
+[1.078727] (AR_detection) StdoutLine: {'line': b'copying /home/knakamura/AR_ws/build/AR_detection/build/lib/AR_detection/__init__.py -> /home/knakamura/AR_ws/install/AR_detection/lib/python3.8/site-packages/AR_detection\n'}
+[1.078796] (AR_detection) StdoutLine: {'line': b'copying /home/knakamura/AR_ws/build/AR_detection/build/lib/AR_detection/camera_point_axis_average.py -> /home/knakamura/AR_ws/install/AR_detection/lib/python3.8/site-packages/AR_detection\n'}
+[1.079049] (AR_detection) StdoutLine: {'line': b'byte-compiling /home/knakamura/AR_ws/install/AR_detection/lib/python3.8/site-packages/AR_detection/__init__.py to __init__.cpython-38.pyc\n'}
+[1.079230] (AR_detection) StdoutLine: {'line': b'byte-compiling /home/knakamura/AR_ws/install/AR_detection/lib/python3.8/site-packages/AR_detection/camera_point_axis_average.py to camera_point_axis_average.cpython-38.pyc\n'}
+[1.080421] (AR_detection) StdoutLine: {'line': b'running install_data\n'}
+[1.080575] (AR_detection) StdoutLine: {'line': b'creating /home/knakamura/AR_ws/install/AR_detection/share/ament_index\n'}
+[1.080720] (AR_detection) StdoutLine: {'line': b'creating /home/knakamura/AR_ws/install/AR_detection/share/ament_index/resource_index\n'}
+[1.080779] (AR_detection) StdoutLine: {'line': b'creating /home/knakamura/AR_ws/install/AR_detection/share/ament_index/resource_index/packages\n'}
+[1.080828] (AR_detection) StdoutLine: {'line': b'copying resource/AR_detection -> /home/knakamura/AR_ws/install/AR_detection/share/ament_index/resource_index/packages\n'}
+[1.080875] (AR_detection) StdoutLine: {'line': b'copying package.xml -> /home/knakamura/AR_ws/install/AR_detection/share/AR_detection\n'}
+[1.080923] (AR_detection) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.096955] (AR_detection) StdoutLine: {'line': b'Copying ../../build/AR_detection/AR_detection.egg-info to /home/knakamura/AR_ws/install/AR_detection/lib/python3.8/site-packages/AR_detection-0.0.0-py3.8.egg-info\n'}
+[1.097457] (AR_detection) StdoutLine: {'line': b'running install_scripts\n'}
+[1.101516] (-) TimerEvent: {}
+[1.133099] (AR_detection) StdoutLine: {'line': b'Installing camera_point_axis_average script to /home/knakamura/AR_ws/install/AR_detection/lib/AR_detection\n'}
+[1.133303] (AR_detection) StdoutLine: {'line': b"writing list of installed files to '/home/knakamura/AR_ws/build/AR_detection/install.log'\n"}
+[1.147884] (AR_detection) CommandEnded: {'returncode': 0}
+[1.155639] (AR_detection) JobEnded: {'identifier': 'AR_detection', 'rc': 0}
+[1.156010] (-) EventReactorShutdown: {}

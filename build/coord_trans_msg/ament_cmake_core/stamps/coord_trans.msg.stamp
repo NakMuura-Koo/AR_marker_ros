@@ -1,0 +1,4 @@
+float32 translation_x
+float32 translation_y
+float32 translation_x
+float64[] rotation_matrix
