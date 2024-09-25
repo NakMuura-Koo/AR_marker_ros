@@ -136,9 +136,8 @@ class camera_point(ImagePreviewNode):
                         #print(self.rotation_matrix_average.T)
                         #print(self.tvec_average.T)
                         self.camera_position_world = -np.matmul(self.rotation_matrix_average.T, self.tvec_average[0].T) #ワールド座標におけるカメラ位置の取得
-                        
 
-                        
+
                         self.corners = corners
                         self.ids = ids
                         self.is_average = True #回転行列の平均取得完了
@@ -226,10 +225,11 @@ class camera_point(ImagePreviewNode):
             
             if self.is_average: #平均が取れたら
                 coord_trans_msg = Coordtrans()
+                
                 coord_trans_msg.translation_x = self.camera_position_world[0][0]
                 coord_trans_msg.translation_y = self.camera_position_world[1][0]
                 coord_trans_msg.translation_z = self.camera_position_world[2][0]
-                coord_trans_msg.rotation_matrix = self.rotation_matrix_average.flatten().tolist()
+                coord_trans_msg.rotation_matrix = self.rotation_matrix_average.T.flatten().tolist()
                 
                 self._publisher.publish(coord_trans_msg) #メッセージをpublish
                 
