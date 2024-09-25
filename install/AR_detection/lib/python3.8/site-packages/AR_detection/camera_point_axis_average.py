@@ -16,13 +16,13 @@ class camera_point(ImagePreviewNode):
     def __init__(self):
         super().__init__("compressed_image_preview_node")
         shigure_qos = QoSProfile(depth=10, reliability=ReliabilityPolicy.BEST_EFFORT) #QoSの設定
-        self.dict_aruco = aruco.getPredefinedDictionary(aruco.DICT_4X4_50) #Arucoマーカーの辞書
+        self.dict_aruco = aruco.getPredefinedDictionary(aruco.DICT_7X7_50) #Arucoマーカーの辞書
         self.parameters = aruco.DetectorParameters() 
         self.detector = aruco.ArucoDetector(self.dict_aruco,self.parameters) #Arucoマーカーの検出器の初期化
         
         self.marker_in_world_coordinate = np.array([0.3,0,0]) #ワールド座標系における、印の位置
         
-        self.marker_size = 0.18 #マーカーの１辺 0.1m = 10cm
+        self.marker_size = 0.247 #マーカーの１辺 0.1m = 10cm
         self.corners = None #マーカーの角
         self.ids = None #マーカーのID
         
@@ -153,7 +153,7 @@ class camera_point(ImagePreviewNode):
                         translation_vector = tvecs[0]
                     
                     
-                    result, points_d = self.draw_axis(result,self.camera_matrix,self.dist_coeffs,rotation_vector,translation_vector,length= 0.3) #ワールド座標軸の描画
+                    result, points_d = self.draw_axis(result,self.camera_matrix,self.dist_coeffs,rotation_vector,translation_vector,length= 0.8) #ワールド座標軸の描画
                     
                     # print("x軸:",points_d[0].ravel())
                     # print("y軸:",points_d[1].ravel())
@@ -233,8 +233,6 @@ class camera_point(ImagePreviewNode):
                 
                 self._publisher.publish(coord_trans_msg) #メッセージをpublish
                 
-                
-        
         else:
             cv2.namedWindow('average', cv2.WINDOW_NORMAL) #ウィンドウの設定
             cv2.imshow('average', color_img) #結果の表示
